@@ -1,0 +1,8 @@
+<div ng-controller="HomeController as vm">
+    <p>{{ vm.title }}</p>
+    <div file-loader
+        file-size="vm.data.fileDetails.size"
+        file-extenstions="vm.data.fileDetails.extensions"
+        file-max-length="vm.data.fileDetails.maxLength"
+        file-rules="vm.data.fileDetails.rulesExceptions"></div>
+</div>
