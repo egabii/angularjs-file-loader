@@ -1,4 +1,4 @@
-# `angular-seed` — the seed for AngularJS apps
+# `file-loader` — simple directive to handle uploaded files
 
 This project is an application is an approach to a file uploader directive for a typical AngularJS web app. 
 
