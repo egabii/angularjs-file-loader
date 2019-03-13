@@ -1,8 +1,13 @@
 <div ng-controller="HomeController as vm">
     <p>{{ vm.title }}</p>
+    <ul>
+        <li ng-repeat="instruction in vm.instructions">
+            {{ instruction }}
+        </li>
+    </ul>
     <div file-loader
         file-size="vm.data.fileDetails.size"
-        file-extenstions="vm.data.fileDetails.extensions"
+        file-accept="vm.data.fileDetails.acceptTypes"
         file-max-length="vm.data.fileDetails.maxLength"
-        file-rules="vm.data.fileDetails.rulesExceptions"></div>
+        file-rules="vm.data.fileDetails.options"></div>
 </div>
